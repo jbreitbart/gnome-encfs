@@ -1,8 +1,9 @@
 gnome-encfs
 ===========
 
-This is a branch from http://bitbucket.org/obensonne/gnome-encfs
-I mostly made a few changes useful when using it just for your Dropbox.
+This is a fork from http://bitbucket.org/obensonne/gnome-encfs
+I mostly made a few changes useful when using it just for your Dropbox, like enabeling
+kernel caching of files.
 
 *gnome-encfs* integrates [EncFS][efs] folders into the GNOME desktop by storing
 their passwords in the [keyring][gkr] and optionally mounting them at login
@@ -106,15 +107,9 @@ executed as *root*, that's why there is a `sudo -u $USER` before the
 This works independent of *gnome-encfs*, i.e. it unmounts **any** EncFS folder
 of the user logging out.
 
-License
--------
-
-*gnome-encfs* is licensed as [GPL][gpl].
 
 [dbx]: http://dropbox.com
 [efs]: http://www.arg0.net/encfs
 [gdm]: http://library.gnome.org/admin/gdm/stable/configuration.html
 [gkr]: http://live.gnome.org/GnomeKeyring
-[gpl]: http://www.gnu.org/licenses/gpl.html
-[itr]: http://bitbucket.org/obensonne/gnome-encfs/issues/?status=new&status=open
 [ehi]: http://www.ict.griffith.edu.au/anthony/info/crypto/encfs.hints
